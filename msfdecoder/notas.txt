@@ -1,0 +1,3 @@
+instalar:
+npm install syspipe r2pipe
+pip install r2pipe

@@ -1,0 +1,14 @@
+romimage: file="/usr/share/bochs/BIOS-bochs-latest" 
+vgaromimage: file="/usr/share/bochs/VGABIOS-lgpl-latest" 
+megs: 1024
+floppya: 1_44="./stage4.bin", status=inserted
+boot: floppy
+vga: extension=vbe
+mouse: enabled=0
+log: nul
+logprefix: %t%e%d
+panic: action=ask
+error: action=ask
+info: action=report
+debug: action=ignore
+keyboard: type=mf, serial_delay=250

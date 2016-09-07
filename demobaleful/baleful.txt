@@ -1,0 +1,10 @@
+r2 -a baleful vm.cifrada.code
+e io.cache = true
+e asm.bits = 32
+aei
+aeim 0x200000
+aer r_data = 0x200000
+s 0x1000
+aeip
+aesu 0x1843
+
